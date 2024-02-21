@@ -35,4 +35,4 @@ GitHub Copilot:
 
 The [realpython comments guide](https://realpython.com/python-comments-guide/)
 webpage had interesting and usefully-presented perspective on comments, but nothing 
-like suggestions about intellisensible comment formatting in python.
+like suggestions about intellisensible comment formatting in python was immediately apparent.
