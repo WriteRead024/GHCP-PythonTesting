@@ -3,6 +3,8 @@
 Project Started Feb. 2024
 for project licensing
 reference MSL.l 
+unless otherwise
+indicated in a file
 Rich W.
 -->
 

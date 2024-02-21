@@ -35,4 +35,7 @@ GitHub Copilot:
 
 The [realpython comments guide](https://realpython.com/python-comments-guide/)
 webpage had interesting and usefully-presented perspective on comments, but nothing 
-like suggestions about intellisensible comment formatting in python was immediately apparent.
+like suggestions about intellisensible comment formatting in python was immediately apparent.&nbsp; 
+I was in a top-Google search result hurry and not reading closely.&nbsp; 
+
+The '[doctest.py](https://docs.python.org/3/library/doctest.html#module-doctest)' is almost certainly what I was trying to find.
