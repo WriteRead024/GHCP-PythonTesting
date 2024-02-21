@@ -1,4 +1,11 @@
 
+<!--
+Project Started Feb. 2024
+license reference MSL.l 
+Rich W.
+-->
+
+
 # GHCP-PythonTesting
 
 'G.H.C.P.' for GitHub CoPilot Python Testing
