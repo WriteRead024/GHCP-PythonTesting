@@ -8,8 +8,11 @@
 
 import sys
 
+old_stdout = sys.stdout
 sys.stdout = open('out.txt', 'w')
 
 import this
 
 sys.stdout.close()
+
+sys.stdout = old_stdout
