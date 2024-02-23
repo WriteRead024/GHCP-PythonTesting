@@ -18,7 +18,8 @@ Additional conceptual context information can be found in the 'conceptual-contex
     An informative graph for that information was available at 
     [https://devguide.python.org/versions/](https://devguide.python.org/versions/).
 
-    The files in the 'PythonWhat' folder explore things related to differences between versions of Python as well as a few miscellaneous curiousities.
+    The files in the 'PythonWhat' folder explore things related to variable types, 
+    the differences between versions of Python, and a few miscellaneous curiousities.
 
 2) Python Unit Testing
 
