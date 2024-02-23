@@ -1,5 +1,5 @@
 
-# Feb. 21, 2024
+# Feb. 21,23 2024
 # GitHub CoPilot
 # with Rich W.
 # MSL.l
@@ -27,3 +27,7 @@ result2 = set2 - set1
 print("Elements in set2 but not in set1:", result2)
 
 print()
+
+print("notice that there is no 'negative' apple")
+print("and that the order of items is not changed")
+print("though that might be a situational coincidence")
