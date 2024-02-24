@@ -12,17 +12,17 @@ class Citrus(Fruit):
     pass
 
 print("Instantiating a fresh_fruit object as a Citrus.")
-fresh_fruit = Citrus()
+orange = Citrus()
 
 # Using type()
 print("type(fresh_fruit) == Citrus")
-print(type(fresh_fruit) == Citrus)  # True
+print(type(orange) == Citrus)  # True
 print("type(fresh_fruit) == Fruit")
-print(type(fresh_fruit) == Fruit)   # False
+print(type(orange) == Fruit)   # False
 
 # Using isinstance()
 print("isinstance(fresh_fruit, Citrus)")
-print(isinstance(fresh_fruit, Citrus))  # True
+print(isinstance(orange, Citrus))  # True
 print("isinstance(fresh_fruit, Fruit)")
-print(isinstance(fresh_fruit, Fruit))   # True
+print(isinstance(orange, Fruit))   # True
 
