@@ -11,6 +11,7 @@ MSL.l
 
 ## TODOs:
 - [ ] Dynamic type creation with types module
+- [ ] figure out why the PythonUnitTesting/run-python-unittest.sh works in parallel
 - [ ] explore the 'metaclass' concept
 - [ ] library dependency checker script generator
 - [ ] project ToC generator script
