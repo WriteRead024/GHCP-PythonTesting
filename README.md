@@ -18,4 +18,4 @@ as an exercise to better learn and comprehend
 the Python programming language 
 as well as an opportunity to further explore 
 the Python capabilities of 
-Microsoft's GitHub CoPilot cloud service.
+Microsoft's GitHub Copilot cloud service.
