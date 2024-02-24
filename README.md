@@ -11,7 +11,7 @@ Rich W.
 
 # GHCP-PythonTesting
 
-'G.H.C.P.' for GitHub CoPilot Python Testing
+'G.H.C.P.' for GitHub Copilot Python Testing
 
 This repository was started Feb. 2024 
 as an exercise to better learn and comprehend
