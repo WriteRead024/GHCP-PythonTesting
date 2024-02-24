@@ -1,4 +1,3 @@
-
 # Feb. 21, 2024
 # Rich W.
 
@@ -9,7 +8,7 @@
 import sys
 
 old_stdout = sys.stdout
-sys.stdout = open('out.txt', 'w')
+sys.stdout = open("out.txt", "w")
 
 import this
 

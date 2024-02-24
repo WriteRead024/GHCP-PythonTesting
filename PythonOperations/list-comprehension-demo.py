@@ -1,4 +1,3 @@
-
 # Feb. 23 2024
 # GitHub CoPilot
 # with Rich W.

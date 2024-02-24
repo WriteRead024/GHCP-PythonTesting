@@ -1,4 +1,3 @@
-
 # Feb. 21, 2024
 # Rich W.
 # with GitHub CoPilot
@@ -47,7 +46,7 @@ sys.stdout = mystdout = StringIO()
 
 import this
 
-# get the string from the buffer 
+# get the string from the buffer
 # and strip leading and trailing whitespace
 result_string = mystdout.getvalue()
 result_string = result_string.strip()
@@ -65,4 +64,3 @@ if expected_string != result_string:
     print("    result_string length: ", len(result_string))
 else:
     print("Expected and 'import this' result strings match.")
-

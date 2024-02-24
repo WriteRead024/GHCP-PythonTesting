@@ -1,4 +1,3 @@
-
 # Feb. 24, 2024
 # Rich W.
 # MSL.l
@@ -6,9 +5,11 @@
 import unittest
 
 import versioncheck
+
 versioncheck.version_check()
 
 print("test_number-type-conversion.py")
+
 
 class StringPropertiesTestCases(unittest.TestCase):
     def test_new_properties_on_a_string_raise_error(self):
@@ -18,7 +19,7 @@ class StringPropertiesTestCases(unittest.TestCase):
         string_var = "string"
         with self.assertRaises(AttributeError):
             string_var.new_property = "new property"
-    
+
     def test_string_is_immutable(self):
         """
         string property
@@ -34,7 +35,7 @@ class StringPropertiesTestCases(unittest.TestCase):
         string_var = "This is a string."
         substring = string_var[5:]
         self.assertEqual(substring, "is a string.")
-    
+
     def test_substring_start_and_stop_operation(self):
         """
         Test substring slice start and stop operation.

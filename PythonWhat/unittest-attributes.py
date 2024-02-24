@@ -1,4 +1,3 @@
-
 # Feb. 21, 2024
 # Rich W.
 # with GitHub CoPilot
@@ -24,9 +23,11 @@ if not quieter:
 
 # Compare the available version of Python with the expected_version variable
 if not sys.version.startswith(expected_version):
-    warningstring = f"Expected Python version {expected_version}, but found {sys.version}"
+    warningstring = (
+        f"Expected Python version {expected_version}, but found {sys.version}"
+    )
     warnings.warn(warningstring, UserWarning)
-elif not quieter: 
+elif not quieter:
     print(f"Expected Python version {expected_version} is detected.")
 
 
@@ -65,7 +66,7 @@ expected_non_underscored_module_attributes = [
     "skipIf",
     "skipUnless",
     "suite",
-    "util"
+    "util",
 ]
 
 # expected underscored module attributes
@@ -82,18 +83,26 @@ expected_underscored_module_attributes = [
     "__package__",
     "__path__",
     "__spec__",
-    "__unittest"
+    "__unittest",
 ]
 
 
 # Get the module attributes
-non_underscored_module_attributes = [attr for attr in dir(unittest) if not attr.startswith('__')]
-underscored_module_attributes = [attr for attr in dir(unittest) if attr.startswith('__')]
+non_underscored_module_attributes = [
+    attr for attr in dir(unittest) if not attr.startswith("__")
+]
+underscored_module_attributes = [
+    attr for attr in dir(unittest) if attr.startswith("__")
+]
 
 
 # Compare the lists of attributes with the expected attributes
-missing_non_underscored_attributes = set(expected_non_underscored_module_attributes) - set(non_underscored_module_attributes)
-missing_underscored_attributes = set(expected_underscored_module_attributes) - set(underscored_module_attributes)
+missing_non_underscored_attributes = set(
+    expected_non_underscored_module_attributes
+) - set(non_underscored_module_attributes)
+missing_underscored_attributes = set(expected_underscored_module_attributes) - set(
+    underscored_module_attributes
+)
 
 
 # Print the appropriate lists of results
@@ -111,7 +120,7 @@ if print_all or print_present:
 if print_all or print_missing:
     # Print the missing non-underscored attributes
     print("Missing non-underscored attributes:")
-    if (any(missing_non_underscored_attributes)):
+    if any(missing_non_underscored_attributes):
         for attribute in missing_non_underscored_attributes:
             print(attribute)
     else:
@@ -119,7 +128,7 @@ if print_all or print_missing:
 
     # Print the missing underscored attributes
     print("Missing underscored attributes:")
-    if (any(missing_underscored_attributes)):
+    if any(missing_underscored_attributes):
         for attribute in missing_underscored_attributes:
             print(attribute)
     else:

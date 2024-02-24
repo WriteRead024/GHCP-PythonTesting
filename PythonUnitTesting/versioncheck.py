@@ -1,14 +1,14 @@
-
-#Feb. 2024
-#Rich W.
+# Feb. 2024
+# Rich W.
 
 import sys
 
 already_checked = False
 
+
 def version_check():
     global already_checked
-    if (already_checked):
+    if already_checked:
         return
     else:
         print("versioncheck.py")

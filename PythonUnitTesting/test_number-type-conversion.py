@@ -1,4 +1,3 @@
-
 # Feb. 24, 2024
 # Rich W.
 # with some help from GitHub Copilot
@@ -7,9 +6,11 @@
 import unittest
 
 import versioncheck
+
 versioncheck.version_check()
 
 print("test_number-type-conversion.py")
+
 
 class DataAndTypeConversionTestCases(unittest.TestCase):
     def test_type_conversion(self):

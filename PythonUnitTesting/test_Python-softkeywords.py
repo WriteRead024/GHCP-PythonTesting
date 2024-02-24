@@ -7,12 +7,14 @@ import unittest
 import keyword
 
 import versioncheck
+
 versioncheck.version_check()
 
 print("test_Python-softkeywords.py")
 
+
 class KeywordsTestCases(unittest.TestCase):
-    expected_softkwlist = ['_', 'case', 'match', 'type']
+    expected_softkwlist = ["_", "case", "match", "type"]
 
     def test_softkwlist(self):
         """
@@ -28,5 +30,6 @@ class KeywordsTestCases(unittest.TestCase):
             with self.subTest(kw=kwitem):
                 self.assertTrue(keyword.issoftkeyword(kwitem))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
