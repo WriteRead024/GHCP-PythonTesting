@@ -11,7 +11,7 @@ class Fruit:
 class Citrus(Fruit):
     pass
 
-print("Instantiating a fresh_fruit object as a Citrus.")
+print("Instantiating an orange as a Citrus object.")
 orange = Citrus()
 
 # Using type()
