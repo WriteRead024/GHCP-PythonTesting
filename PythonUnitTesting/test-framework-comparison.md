@@ -1,7 +1,9 @@
 
 ### GHCP-PythonTesting
 
-This project subfolder contains coding work intended to develop understanding of unit testing in the Python programming language.
+This project subfolder contains coding work intended to develop understanding of unit testing in the Python programming language.&nbsp;
+The unit test files in this PythonUnitTesting directory are in the 'unittest' module style 
+and can be run using the 'run-python-unittest.sh' script.
 
 
 # Unit Test Framework Comparison
