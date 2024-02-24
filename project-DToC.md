@@ -8,6 +8,9 @@ This project concerns the popular Python programming language as represented at 
 Additional conceptual context information can be found in the 'conceptual-context.md' file 
 and in 'md' files in each of the several subdirectories.
 
+It is also worth mentioning that the Python code files were auto-formatted using the 
+[Black](https://github.com/psf/black) Python code formatter.
+
 
 1) Python What
 
@@ -32,3 +35,7 @@ and in 'md' files in each of the several subdirectories.
 3) Python Operations
 
     Some examples of how some basic Python operators and operations are used.
+
+4) Dynamic Python
+
+    An exploration of dynamic programming in the Python programming language.
