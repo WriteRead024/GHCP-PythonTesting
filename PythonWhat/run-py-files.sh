@@ -29,6 +29,14 @@ fi
 
 for file in $(ls *.py | sort); do
     if [[ -f $file ]]; then
+        echo ""
+        echo "----------------------------------------"
+        echo "Running $file"
+        echo "----------------------------------------"
         "$python_executable" "$file"
+        echo "----------------------------------------"
+        echo "$file completed"
+        echo "----------------------------------------"
+        echo ""
     fi
 done
