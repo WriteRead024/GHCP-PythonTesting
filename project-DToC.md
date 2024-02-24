@@ -5,7 +5,8 @@
 # Project Descriptive Table of Contents
 
 This project concerns the popular Python programming language as represented at [python.org](python.org).&nbsp; 
-Additional conceptual context information can be found in the 'conceptual-context.md' file.
+Additional conceptual context information can be found in the 'conceptual-context.md' file 
+and in 'md' files in each of the several subdirectories.
 
 
 1) Python What
