@@ -4,16 +4,13 @@
 # with GitHub CoPilot
 # MSL.l
 
-import sys
 import unittest
 import keyword
 
+import versioncheck
+versioncheck.version_check()
+
 print("test_Python-keywords.py")
-print("current Python version:", sys.version)
-if sys.version_info.major != 3 or sys.version_info.minor != 12:
-    raise Warning("This script was written for Python 3.12(.1)")
-else:
-    print("Python version is the expected 3.12")
 
 class KeywordsTestCases(unittest.TestCase):
     expected_kwlist = ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']

@@ -4,15 +4,12 @@
 # with some help from GitHub Copilot
 # MSL.l
 
-import sys
 import unittest
 
+import versioncheck
+versioncheck.version_check()
+
 print("test_number-type-conversion.py")
-print("current Python version:", sys.version)
-if sys.version_info.major != 3 or sys.version_info.minor != 12:
-    raise Warning("This script was written for Python 3.12(.1)")
-else:
-    print("Python version is the expected 3.12")
 
 class DataAndTypeConversionTestCases(unittest.TestCase):
     def test_type_conversion(self):
