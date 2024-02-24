@@ -5,7 +5,6 @@ This project subfolder contains coding work intended to develop understanding of
 The unit test files in this PythonUnitTesting directory are in the 'unittest' module style 
 and can be run using the 'run-python-unittest.sh' script.
 
-
 # Unit Test Framework Comparison
 
 The three unit test frameworks recommended by GitHub Copilot on Feb. 21, 2024 were:
@@ -29,6 +28,10 @@ unittest functionality is built around the object-oriented concepts of test fixt
 It looks like test cases are denoted by a 'test_' prefix on a function 'def' definition.
 
 It looks like test class is denoted by a '(unittest.TestCase)' class definition parameter.
+
+It looks like test files are by convention denoted with a 'test_' filename prefix or '_test' filename suffix.&nbsp; 
+The unittest [test discovery](https://docs.python.org/3/library/unittest.html#unittest-test-discovery) 
+feature uses 'test*.py' as the default pattern matcher.
 
 The Python rules for identifier validity (at [lexical analysis identifiers](https://docs.python.org/3/reference/lexical_analysis.html#identifiers)) 
 define what a valid filename is&nbsp;  Valid filenames are required for detection by the TestLoader, new to Python 3.2.&nbsp; 
