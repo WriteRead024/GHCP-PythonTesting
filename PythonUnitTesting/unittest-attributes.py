@@ -6,6 +6,7 @@
 
 import sys
 import unittest
+import warnings
 
 # expected version of Python
 expected_version = "3.12.1"
@@ -23,7 +24,8 @@ if not quieter:
 
 # Compare the available version of Python with the expected_version variable
 if not sys.version.startswith(expected_version):
-    print(f"Expected Python version {expected_version}, but found {sys.version}")
+    warningstring = f"Expected Python version {expected_version}, but found {sys.version}"
+    warnings.warn(warningstring, UserWarning)
 elif not quieter: 
     print(f"Expected Python version {expected_version} is detected.")
 
