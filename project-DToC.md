@@ -27,3 +27,7 @@ Additional conceptual context information can be found in the 'conceptual-contex
     'doctest' also gets some attention.
 
     The "warning" logging feature is also used in some of the unittest files.
+
+3) Python Operations
+
+    Some examples of how some basic Python operators and operations are used.
