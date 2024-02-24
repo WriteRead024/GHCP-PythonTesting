@@ -25,3 +25,5 @@ Additional conceptual context information can be found in the 'conceptual-contex
 
     The files in the 'PythonUnitTesting' folder explore the Python unit testing frameworks unittest, pytest, and nose.&nbsp; 
     'doctest' also gets some attention.
+
+    The "warning" logging feature is also used in some of the unittest files.
