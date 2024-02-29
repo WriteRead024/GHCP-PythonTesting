@@ -17,9 +17,9 @@ while maintaining some amount of backward compatibility with the flexibility of 
 
 Note that static typing for Python is not necessarily a useful idea.&nbsp; 
 Developer tools such as [Pyright](https://github.com/microsoft/pyright) 
-can provide typechecking in the editor before runtime precompilation, 
-and Python itself has several typechecking (such as Type Hints for method arguments and returns types) 
-features built-in.&nbsp; 
+can provide typechecking in the editor before precompilation/runtime, 
+and Python itself has several typechecking features built-in as part of new 
+versions of the language (such as Type Hints for method arguments and returns types).&nbsp; 
 
 The point here is that programmatic dynamicity is one of the main advantages gained 
 from the flexibility that Python offers.&nbsp; 
