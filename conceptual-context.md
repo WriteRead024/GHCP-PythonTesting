@@ -39,3 +39,9 @@ like suggestions about intellisensible comment formatting in python was immediat
 I was in a top-Google search result hurry and not reading closely.&nbsp; 
 
 The '[doctest.py](https://docs.python.org/3/library/doctest.html#module-doctest)' is almost certainly what I was trying to find.
+
+# the normal way to run Python unittests is (in this project):
+
+'python -m unittest -v test_*.py'
+
+The '-m' is for module and the '-v' is for verbose.

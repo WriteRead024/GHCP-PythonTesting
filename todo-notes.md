@@ -24,6 +24,6 @@ MSL.l
 - [ ] Dynamic Python example of operator overloading by way of special method names (https://docs.python.org/3/reference/datamodel.html#special-method-names, https://stackoverflow.com/questions/59011827/is-it-possible-to-overload-keywords-in-python)
 - [ ] Dynamic Python example of adding statement [keywords] (https://stackoverflow.com/questions/214881/can-you-add-new-statements-to-pythons-syntax), particularly the addition of the 'until' keyword for looping
 
-## TODONEs:
+## TODOs DONE:
 - [x] change unittest version checking to separate module
 - [x] explore the 'metaclass' concept
