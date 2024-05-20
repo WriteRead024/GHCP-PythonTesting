@@ -12,6 +12,7 @@ import unittest
 
 print_results = False
 
+
 class TestFunctionArgumentTuples(unittest.TestCase):
     def process_tuple(self, data):
         # Process the tuple
@@ -45,7 +46,9 @@ class TestFunctionArgumentTuples(unittest.TestCase):
 
         # Compare the execution times
         try:
-            assert tuple_time < list_time, "Tuple processing is unexpectedly not slower than list processing"
+            assert (
+                tuple_time < list_time
+            ), "Tuple processing is unexpectedly not slower than list processing"
         except AssertionError as e:
             print(e)
 
