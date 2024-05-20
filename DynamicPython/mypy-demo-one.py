@@ -14,3 +14,9 @@ name: str = "example name"
 age: int = 42
 name_and_age_one = simple_concat(name, age)
 name_and_age_two = name + age
+
+# if executed from the command line,
+# this script will not get this far
+print(f"Name: '{name}', Age: '{age}'")
+print(f"Name and Age One concatenated: '{name_and_age_one}'")
+print(f"Name and Age Two concatenated: '{name_and_age_two}'")
